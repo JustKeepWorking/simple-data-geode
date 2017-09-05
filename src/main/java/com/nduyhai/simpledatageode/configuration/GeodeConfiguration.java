@@ -9,7 +9,6 @@ import org.springframework.data.gemfire.CacheFactoryBean;
 import org.springframework.data.gemfire.ReplicatedRegionFactoryBean;
 
 @Configuration
-
 public class GeodeConfiguration {
 
     @Autowired
