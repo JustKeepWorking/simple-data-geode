@@ -3,8 +3,10 @@ package com.nduyhai.simpledatageode.domain;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.gemfire.mapping.annotation.Region;
 
+import java.io.Serializable;
+
 @Region("book")
-public class Book {
+public class Book implements Serializable {
     @Id
     private Integer id;
 

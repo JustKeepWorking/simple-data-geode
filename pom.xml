@@ -37,26 +37,6 @@
 			<artifactId>spring-data-geode</artifactId>
 			<version>2.0.0.RC2</version>
 		</dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.geode/geode-pulse -->
-        <dependency>
-            <groupId>org.apache.geode</groupId>
-            <artifactId>geode-pulse</artifactId>
-            <version>1.2.0</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.geode/geode-web -->
-        <dependency>
-            <groupId>org.apache.geode</groupId>
-            <artifactId>geode-web</artifactId>
-            <version>1.2.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.geode/geode-web-api -->
-        <dependency>
-            <groupId>org.apache.geode</groupId>
-            <artifactId>geode-web-api</artifactId>
-            <version>1.2.0</version>
-        </dependency>
-
 
 
 
@@ -87,6 +67,7 @@
         </repository>
 
     </repositories>
+
 
 	<build>
 		<plugins>
